@@ -10,7 +10,7 @@ import pickle
 
 import streamlit as st
 
-loaded_model =  pickle.load(open('C:/Users/lidya/Desktop/Diabetes prediction/trained_model.sav','rb'))
+loaded_model =  pickle.load(open('C:/Users/lidya/Desktop/DATA SCIENCE PROJECTS 2024/Diabetes prediction/trained_model.sav','rb'))
 
 
 def  dia_prediction(input_data):
